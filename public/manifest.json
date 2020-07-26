@@ -1,0 +1,21 @@
+{
+	"name": "Webpack Training",
+	"short_name": "WT",
+	"lang": "en",
+	"start_url": "/",
+	"background_color": "#20232a",
+	"theme_color": "#20232a",
+	"display": "standalone",
+	"icons": [
+		{
+			"src": "/icon-192x192.png",
+			"sizes": "192x192",
+			"type": "image/png"
+		},
+		{
+			"src": "/icon-512x512.png",
+			"sizes": "512x512",
+			"type": "image/png"
+		}
+	]
+}

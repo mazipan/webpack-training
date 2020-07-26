@@ -6,16 +6,18 @@ A webpack training repository
 
 I have a web application stored on Github (on this repository), built using `React`, `less` pre-processor.
 
-Help me to create a webpack configuration for development (of course including HMR) and production (deploy to the Github Pages).
+Help me to create a webpack configuration for development (of course including HMR) and production.
 
-*Note:*
+## Clues
 
-If you are not familiar with Github Pages, you need to know that GH Pages will add a prefix path in every new project.
-[Read here](https://docs.github.com/en/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site)
-
-## Expectations
-
+- Entry `index.html` is on `public` folder.
+- In `index.html`, there is variable `%PUBLIC_URL%` that need to be passed in build process
+- All file in `public` folder such as `favicon.ico`, `manifest.json`, etc should be place on root directory
+- Stylesheet using `.less` so you need to add some webpack loader for this
+- You might need a `babel` to traspile some modern code
+- All files should be minified in production mode
+- All stylesheets need to be extracted from JavaScript
 - Development on `localhost:8080/` including HMR
-- Production on `https://mazipan.github.io/webpack-training/`
+- Production on Github Pages, e.g: `https://mazipan.github.io/webpack-training/`
 
 
