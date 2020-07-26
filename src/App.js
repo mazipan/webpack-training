@@ -55,6 +55,7 @@ export default function App() {
           value={searchText}
           onChange={handleChangeSearch}
         />
+        <div className="emoji-length">{showEmojis.length} emojis found</div>
         <div className="emoji-wrapper">
           {showEmojis.length > 0 &&
             showEmojis.map(emoji => (
