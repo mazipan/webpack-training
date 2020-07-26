@@ -2,6 +2,8 @@
 
 A webpack training repository
 
+![Screenshot](screenshot.png)
+
 ## Problem statement
 
 I have a web application stored on Github (on this repository), built using `React`, `less` pre-processor.
@@ -20,4 +22,16 @@ Help me to create a webpack configuration for development (of course including H
 - Development on `localhost:8080/` including HMR
 - Production on Github Pages, e.g: `https://mazipan.github.io/webpack-training/`
 
+## Live Apps
 
+[https://mlltv.csb.app/](https://mlltv.csb.app/)
+
+## Credits
+
+- React
+- Codesandbox
+- [Gemoji by Github](https://github.com/github/gemoji)
+
+---
+
+By Irfan Maulana in 2020
