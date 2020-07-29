@@ -12,6 +12,7 @@ Help me to create a webpack configuration for development (of course including H
 
 ## Clues
 
+- Fork or copy the repo to your own Github repo
 - Entry `index.html` is on `public` folder.
 - In `index.html`, there is variable `%PUBLIC_URL%` that need to be passed in build process
 - All file in `public` folder such as `favicon.ico`, `manifest.json`, etc should be place on root directory
